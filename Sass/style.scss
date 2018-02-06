@@ -26,6 +26,7 @@ header{
   background: #fff;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);
   position:fixed;
+  z-index: 99;
 }
   ul{
 
@@ -56,6 +57,8 @@ header>.container{
       border-radius: 50%;
       transition: 0.5s;
       text-align: center;
+      z-index: -1;
+
     }
     h2:hover{
       border-radius: 0px;
@@ -101,6 +104,7 @@ a:hover{
       padding: 10px;
       transform: rotate(360deg);
       border-radius: 0;
+      z-index:1 ;
     }
     .hero-text-2{
       color: #fff;
@@ -142,6 +146,7 @@ a:hover{
           }
           .img:hover{
             filter:opacity(0.6);
+            z-index: 1;
           }
           .img1{
             background: url('../images/img1.jpg');
