@@ -223,6 +223,10 @@ a:hover{
       display:block;
       padding-bottom:5px;
       border: none;
+      border-bottom: 1px solid grey;
+    }
+    input:focus{
+      outline: none;
       border-bottom: 1px solid black;
     }
 
@@ -239,6 +243,9 @@ a:hover{
 
     .btn-primary:hover{
       background: darkgrey;
+    }
+    .btn-primary:focus{
+      outline: none;
     }
   }
 }
