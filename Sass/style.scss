@@ -256,7 +256,7 @@ a:hover{
 }
 
 // footer
-.footer{
+footer{
   margin-top:30px;
   height: 40px;
   background: black;
@@ -286,5 +286,8 @@ a:hover{
     display: flex;
     flex-direction: column;
   }
+}
+.footer{
+  margin-top: 50px;
 }
 }
